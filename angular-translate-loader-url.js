@@ -56,7 +56,7 @@ function $translateUrlLoader($q, $http) {
 
     return $http(angular.extend({
       url: options.url,
-      params: requestParams,
+      //params: requestParams,
       method: 'GET'
     }, options.$http))
       .then(function(result) {
